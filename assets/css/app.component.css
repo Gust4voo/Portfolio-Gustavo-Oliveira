@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Mulish:wght@500&display=swap');
-
-*{
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Mulish:wght@500&display=swap");
+* {
   margin: 0;
   padding: 0;
-  font-family: 'Mulish', sans-serif;
+  font-family: "Mulish", sans-serif;
 }
 
 ::-webkit-scrollbar {
-  width: .5rem;
+  width: 0.5rem;
   background-color: black;
 }
 
@@ -18,4 +17,4 @@
 ::-webkit-scrollbar-thumb {
   background-color: #8C52FF;
   border-radius: 5px;
-}
+}/*# sourceMappingURL=app.component.css.map */

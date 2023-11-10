@@ -9,6 +9,13 @@
   color: #fff;
 }
 
+#title2{
+  padding-top: 3rem;
+  font-size: 3rem;
+  font-weight: 600;
+  color: #69DFEB;
+}
+
 #nome{
   color: #9b9b9b;
   font-size: 3rem;
@@ -33,5 +40,69 @@ li{
   color: #8b8b8b;
   font-size: 1.4rem;
   padding-right: 0.5rem;
+}
+
+.skillsContent {
+  padding-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.icon {
+  cursor: pointer;
+  color: #fff;
+  font-size: 4rem;
+  transition: .5s;
+}
+
+.icon1:hover {
+  color: #c3002f;
+}
+
+.icon2:hover {
+  color: #E34F26;
+}
+
+.icon3:hover {
+  color: #1572B6;
+}
+
+.icon4:hover {
+  color: #F7DF1E;
+}
+
+.icon5:hover {
+  color: #377cc8;
+}
+
+.icon6:hover {
+  color: #6e2bf2;
+}
+
+.icon7:hover {
+  color: #c76494;
+}
+
+.icon8:hover {
+  color: #0878bf;
+}
+
+.icon9:hover {
+  color: #77ae68;
+}
+
+.icon10:hover {
+  color: #396c94;
+}
+
+.icon11:hover {
+  color: #6db33f;
+}
+
+.icon12:hover {
+  color: #8400ff;
 }
 

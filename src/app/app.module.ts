@@ -8,6 +8,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
+import { ContactsComponent } from './contacts/contacts.component';
 
 const rotte: Route[] = [
   {
@@ -24,7 +25,8 @@ const rotte: Route[] = [
     NavbarComponent,
     HomeComponent,
     FooterComponent,
-    AboutComponent
+    AboutComponent,
+    ContactsComponent
   ],
   imports: [
     BrowserModule,
