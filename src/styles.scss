@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+
+html{
+  background-color: black;
+}
+
+::-webkit-scrollbar {
+  width: .5rem;
+  background-color: black;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a8e7ee;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #69DFEB;
+  border-radius: 5px;
+}

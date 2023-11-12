@@ -1,0 +1,35 @@
+.footer{
+  background-color: black;
+  padding-top: 6rem;
+}
+
+#gustavo{
+  padding-left: 2rem;
+  color: white;
+}
+
+.icon {
+  color: #fff;
+  right: 2rem;
+  bottom: 3px;
+  position: fixed;
+  font-size: 2rem;
+  animation: arrowUp 2s infinite;
+  transition: .3s;
+}
+
+.icon:hover {
+  cursor: pointer;
+  color: #69DFEB;
+}
+
+@keyframes arrowUp {
+  0%,
+  100% {
+      transform: translateY(0);
+  }
+
+  50% {
+      transform: translateY(-10px);
+  }
+}
