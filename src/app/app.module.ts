@@ -18,8 +18,6 @@ const rotte: Route[] = [
     path: 'progetti',
     component: ProgettiComponent,
   },
-
-
 ]
 
 @NgModule({
