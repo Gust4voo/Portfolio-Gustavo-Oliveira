@@ -1,5 +1,5 @@
 .contacts{
-  background-color: black;
+  background-color: #252525;
 }
 
 #title{
@@ -16,7 +16,7 @@
 
 .form-container {
   width: 1100px;
-  background: linear-gradient(#000000, #000000) padding-box,
+  background: linear-gradient(#252525, #252525) padding-box,
               linear-gradient(145deg, transparent 35%,#69DFEB, #69DFEB) border-box;
   border: 2px solid transparent;
   padding: 32px 24px;
@@ -231,7 +231,7 @@ button:active {
 
 .socialMediaLogo {
     cursor: pointer;
-    background-color: #33333342;
+    background-color: #3d3d3d42;
     border-radius: .5rem;
     padding: 1.5rem 0rem;
     width: 18rem;
