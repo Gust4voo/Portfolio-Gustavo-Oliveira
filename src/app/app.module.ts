@@ -7,13 +7,16 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
-import { AboutComponent } from './about/about.component';
-import { ContactsComponent } from './contacts/contacts.component';
+import { ProgettiComponent } from './progetti/progetti.component';
 
 const rotte: Route[] = [
   {
     path: '',
     component: HomeComponent,
+  },
+  {
+    path: 'progetti',
+    component: ProgettiComponent,
   },
 
 
@@ -25,8 +28,7 @@ const rotte: Route[] = [
     NavbarComponent,
     HomeComponent,
     FooterComponent,
-    AboutComponent,
-    ContactsComponent
+    ProgettiComponent
   ],
   imports: [
     BrowserModule,
