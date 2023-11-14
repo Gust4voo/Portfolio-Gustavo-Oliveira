@@ -17,6 +17,11 @@ img{
     position: relative;
 }
 
+.hambur2{
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
 .navLink::after {
     content: "";
     position: absolute;
@@ -41,5 +46,19 @@ img{
     top: -20px;
   }
 
+  .navbar-toggler{
+    color: white;
+    background-color: #69DFEB;
+    margin-bottom: 1.7rem;
+    position: absolute;
+    margin-left: 18rem;
+  }
+
+  .hambur1, .hambur2{
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    margin-left: 18rem;
+  }
 
 }
