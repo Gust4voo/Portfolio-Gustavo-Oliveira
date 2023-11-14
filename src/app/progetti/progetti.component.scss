@@ -156,6 +156,7 @@ span{
 }
 
 @media screen and (min-width: 769px) {
+
   .postcard {
     flex-wrap: inherit;
 
@@ -212,6 +213,7 @@ span{
   }
 }
 @media screen and (min-width: 1024px){
+
 		.postcard__text {
       padding: 2rem 3.5rem;
     }
@@ -310,6 +312,20 @@ span{
 		$main-yellow-rgb-015,
 		transparent 50%
 	);
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  #pageHeaderTitle {
+    margin: 2rem 0;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: white;
+    padding-bottom: 2rem;
+
+  }
+
 }
 
 @media screen and (min-width: 769px) {

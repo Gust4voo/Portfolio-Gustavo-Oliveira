@@ -15,7 +15,7 @@ span{
 }
 
 #full{
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   padding: 1rem 1rem 3rem;
   color: white;
 }
@@ -371,7 +371,7 @@ li{
   margin-bottom: 5px;
   color: #717171;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .form-container .form-group input {
@@ -561,12 +561,122 @@ li{
   gap: 1rem;
 }
 
-.mediaName {
+.mediaName, .mediaName1 {
     color: #949494;
     font-size: 1rem;
     font-weight: 500;
     margin-bottom: 0;
 }
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+  #ciao{
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+  }
+
+  #full{
+    font-size: 16px;
+    padding: 1rem 1rem 3rem;
+    color: white;
+  }
+
+  #nome{
+    font-size: 36px;
+}
+
+img{
+  width: 320px;
+  height: auto;
+}
+
+#infoItem {
+  font-size: 15px;
+}
+
+#sottoNome {
+  width: 90%;
+}
+
+.aboutInfo {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#secondContentabout {
+  text-align: center;
+}
+
+#title {
+  font-size: 3.5rem;
+  font-weight: 600;
+  padding-top: 2rem;
+}
+
+.socialMediaLogo2 {
+  cursor: pointer;
+  background-color: #33333342;
+  border-radius: .5rem;
+  padding: 1.5rem 0rem;
+  width: 22rem;
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.mediaName1 {
+  color: #949494;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.skillsContent {
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+#titlec{
+  font-size: 3.5rem;
+  font-weight: 600;
+  padding-bottom: 5rem;
+  padding-top: 8rem;
+  color: #fff;
+}
+
+.form-container {
+  width: 350px;
+  background: linear-gradient(#252525, #252525) padding-box,
+              linear-gradient(145deg, transparent 35%,#69DFEB, #69DFEB) border-box;
+  border: 2px solid transparent;
+  padding: 32px 24px;
+  font-size: 14px;
+  font-family: inherit;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  background-size: 200% 100%;
+  animation: gradient 5s ease infinite;
+}
+
+
+}
+
+
+
 
 
 

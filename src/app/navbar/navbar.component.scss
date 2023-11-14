@@ -33,3 +33,13 @@ img{
     transform: scaleX(1);
 }
 
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  img{
+    width: 110px;
+    padding-top: 0;
+    position: relative;
+    top: -20px;
+  }
+
+
+}
