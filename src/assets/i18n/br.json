@@ -1,0 +1,49 @@
+{
+  "Home": "Início",
+  "progetti": "Projeto",
+  "linguaggi": "Linguas",
+
+  "home": {
+    "heading": "OLÁ, EU SOU GUSTAVO OLIVEIRA",
+    "sottoheading": "Sou um Desenvolvedor Full-Stack apaixonado pelo desafio contínuo, sempre em busca de novas soluções criativas.",
+    "download": "Baixe meu currículo."
+  },
+
+  "about": {
+    "title": "Sobre",
+    "description": "Olá, sou Gustavo Oliveira, tenho 22 anos. Nasci no Brasil e vivi no Japão por 6 anos, sempre acostumado a viajar e a restaurar efetivamente o equilíbrio. Sou um graduado dinâmico em Finanças, Marketing e Administração, ansioso para me aventurar no mundo profissional para aprimorar minhas habilidades. Ao longo desta jornada de vida, desenvolvi uma paixão fervorosa pelo desenvolvimento web, desejando aplicar o que aprendi. Sempre apaixonado pelo mundo da TI, com a capacidade de trabalhar bem tanto em equipe quanto de forma independente.",
+    "icon": "Habilidades"
+  },
+
+  "contacts": {
+    "contatti": "Contatos",
+    "nome": "Seu nome",
+    "email": "Seu e-mail",
+    "messaggio": "Sua mensagem",
+    "invia": "ENVIAR"
+  },
+
+  "card1": {
+    "data1": "Ter, 12 Set 2023",
+    "cardtitle": "GUZ Viaggi",
+    "testocard1": "Com a GUZ Viaggi, sua próxima aventura está a apenas um clique de distância. Desenvolvida com Angular e Java Spring, a plataforma permite aos usuários explorar e reservar facilmente viagens emocionantes ao redor do mundo."
+  },
+
+  "card2": {
+    "data2": "Sex, 28 Abr 2023",
+    "cardtitle2": "Clone do Medium",
+    "testocard2": "Bem-vindo ao grande projeto de clonagem do Medium! Este projeto é uma versão simplificada do famoso site de publicação de conteúdo Medium."
+  },
+
+  "card3": {
+    "data3": "Sex, 07 Mai 2023",
+    "cardtitle3": "Estudantes na Web",
+    "testocard3": "Bem-vindo ao projeto Estudantes na Web! Esta é uma página estática que fornece informações sobre estudantes e cursos relacionados a várias tecnologias."
+  },
+
+  "card4": {
+    "data4": "Sex, 19 Mai 2023",
+    "cardtitle4": "Clone do Spotify",
+    "testocard4": "Este é um clone do Spotify criado usando HTML, CSS, Bootstrap e JavaScript. O objetivo é recriar a experiência do Spotify de maneira agradável."
+  }
+}

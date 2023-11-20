@@ -1,0 +1,49 @@
+{
+  "Home": "Home",
+  "progetti": "Project",
+  "linguaggi": "Language",
+
+  "home": {
+    "heading": "HELLO, I AM GUSTAVO OLIVEIRA",
+    "sottoheading": "I am a Full-Stack Developer in love with the continuous challenge, always seeking new creative solutions.",
+    "download": "Download my resume"
+  },
+
+  "about": {
+    "title": "About",
+    "description": "Hello, I'm Gustavo Oliveira, 22 years old. I was born in Brazil and lived in Japan for 6 years, always accustomed to traveling and effectively restoring balance. A dynamic graduate in Finance, Marketing, and Administration, I am eager to venture into the professional world to enhance my skills. Throughout this life journey, I have developed a fervent passion for web development, wishing to apply what I have learned. Always passionate about the world of IT, with the ability to work well both in a team and independently.",
+    "icon": "Skills"
+  },
+
+  "contacts": {
+    "contatti": "Contacts",
+    "nome": "Your name",
+    "email": "Your email",
+    "messaggio": "Your message",
+    "invia": "SEND"
+  },
+
+  "card1": {
+    "data1": "Tue, Sep 12th 2023",
+    "cardtitle": "GUZ Viaggi",
+    "testocard1": "With GUZ Travel, your next adventure is just a click away. Developed with Angular and Java Spring, the platform allows users to easily explore and book exciting trips around the world."
+  },
+
+  "card2": {
+    "data2": "Fri, Apr 28th 2023",
+    "cardtitle2": "Medium Clone",
+    "testocard2": "Welcome to the big Medium Clone project! This project is a simplified clone of the popular content publishing site Medium."
+  },
+
+  "card3": {
+    "data3": "Fri, May 07th 2023",
+    "cardtitle3": "Students in the Web",
+    "testocard3": "Welcome to the Web Students project! This is a static page that provides information about students and courses related to various technologies."
+  },
+
+  "card4": {
+    "data4": "Fri, May 19th 2023",
+    "cardtitle4": "Spotify Clone",
+    "testocard4": "This is a Spotify clone created using HTML, CSS, Bootstrap, and JavaScript. The goal is to recreate the Spotify experience in an enjoyable way."
+  }
+}

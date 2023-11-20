@@ -1,13 +1,11 @@
-<div class="home text-center pb-5">
-  <p id="ciao">CIAO, SONO GUSTAVO OLIVEIRA<span>.</span></p>
+<div  class="home text-center pb-5">
+  <p id="ciao">{{"home.heading" | translate}}<span>.</span></p>
   <p id="full">
-    Sono un <span>Full-Stack</span> Developer innamorato della
-    <span>sfida</span> continua, sempre alla ricerca di nuove soluzioni
-    creative.
+    {{"home.sottoheading" | translate}}
   </p>
   <a href="../../assets/img/CV Gustavo Oliveira.pdf" target="_blank">
     <button id="curriculum">
-      Scarica il mio curriculum <i class="ps-1 bi bi-download"></i>
+      {{"home.download" | translate}} <i class="ps-1 bi bi-download"></i>
       <div class="star-1">
         <svg
           xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -165,7 +163,7 @@
 </div>
 
 <div class="about text-center">
-  <p id="title">About</p>
+  <p id="title">{{"about.title" | translate}}</p>
   <div class="aboutInfo d-flex justify-content-center gap-5 pb-5">
     <div data-aos="zoom-in" data-aos-duration="2000">
       <img src="../../assets/img/fotoPort (2).png" alt="Foto Personale" />
@@ -174,21 +172,12 @@
       <p id="nome"><span>&lt; </span>Gustavo Oliveira<span> /&gt;</span></p>
       <ul id="infoItem">
         <li id="sottoNome">
-          <i class="bi1 bi-pc-display"></i> Ciao, sono Gustavo Oliveira ho 22
-          anni. Sono nato in Brasile e vissuto per 6 anni in Giappone, da sempre
-          abituato a viaggiare e a ripristinare efficacemente l'equilibrio.
-          Dinamico diplomato in Amministrazione Finanza e Marketing, sono
-          entusiasta di cimentarmi all’interno del mondo del lavoro per
-          accrescere le mie competenze. Ho sviluppato in questo percorso di vita
-          un'ardente passione per lo sviluppo web tanto da voler subito
-          applicare quanto appreso, Da sempre appassionato al mondo
-          dell’informatica, con capacità di lavorare bene sia in gruppo sia in
-          autonomia.
+          <i class="bi1 bi-pc-display"></i>{{"about.description" | translate}}
         </li>
       </ul>
     </div>
   </div>
-  <p id="title2">Skills</p>
+  <p id="title2">{{"about.icon" | translate}}</p>
   <div class="skillsContent">
     <div data-aos="fade-up" data-aos-duration="2000">
       <i class="icon icon1 devicon-angularjs-plain"></i>
@@ -230,7 +219,7 @@
 </div>
 
 <div class="contacts text-center">
-  <p id="titlec">Contacts</p>
+  <p id="titlec">{{"contacts.contatti" | translate}}</p>
   <div class="socialMedias">
     <a
       class="socialMediaLogo linkedin"
@@ -291,15 +280,15 @@
     <div class="form-container">
       <form class="form" action="https://formspree.io/f/xqkvoaob" method="POST">
         <div class="form-group">
-          <label for="name">Il tuo nome</label>
+          <label for="name">{{"contacts.nome" | translate}}</label>
           <input required="" name="name" id="name" type="text" />
         </div>
         <div class="form-group">
-          <label for="email">La tua email</label>
+          <label for="email">{{"contacts.email" | translate}}</label>
           <input required="" name="email" id="email" type="text" />
         </div>
         <div class="form-group">
-          <label for="textarea">Il tuo messaggio</label>
+          <label for="textarea">{{"contacts.messaggio" | translate}}</label>
           <textarea
             required=""
             cols="50"
@@ -309,7 +298,7 @@
           >
           </textarea>
         </div>
-        <button type="submit" class="invia form-submit-btn">Invia</button>
+        <button type="submit" class="invia form-submit-btn">{{"contacts.invia" | translate}}</button>
       </form>
     </div>
   </div>
