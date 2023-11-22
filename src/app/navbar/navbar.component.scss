@@ -95,7 +95,7 @@ img{
   --btn_outline_color: #A0A0A0;
   --btn_outline_offset: 0.0625em;
   --btn_gap: 0.3125em;
-  padding-top: 1rem;
+  padding-top: 5px;
   /* list */
   --list_padding: 0.5em;
   --list_bg: var(--btn_bg);
@@ -144,8 +144,9 @@ img{
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 16px;
+  width: 17px;
   height: 16px;
+  padding-top: 3px;
 }
 
 .theme-popup__button {
@@ -224,6 +225,7 @@ img{
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
 
 
 
