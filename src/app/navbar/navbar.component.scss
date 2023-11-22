@@ -137,7 +137,7 @@ img{
   left: var(--list_position_left);
   right: var(--list_position_right);
   top: calc(var(--btn_height) + var(--list_offset));
-  margin-top: 1rem;
+  margin-top: 4.5px;
 }
 
 .theme-popup__icons {
@@ -226,6 +226,10 @@ img{
   padding-bottom: 10px;
 }
 
+
+.theme-popup:hover .theme-popup__list-container {
+  display: block;
+}
 
 
 
