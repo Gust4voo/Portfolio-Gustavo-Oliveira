@@ -54,7 +54,7 @@ img{
     position: absolute;
     margin-left: 18rem;
   }
-  
+
   .hambur1, .hambur2{
     padding-left: 1rem;
     padding-bottom: 1rem;
@@ -191,7 +191,6 @@ img{
 .theme-popup__list label {
   display: flex;
   align-items: center;
-  justify-content: start;
   column-gap: var(--list_btn_gap);
   padding: var(--list_btn_padding);
   border-radius: var(--list_btn_border_radius);
