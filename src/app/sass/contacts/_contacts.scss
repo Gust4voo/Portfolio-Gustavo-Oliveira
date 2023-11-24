@@ -1,0 +1,265 @@
+.contacts{
+  background-color: #252525;
+}
+
+#titlec{
+  font-size: 4rem;
+  font-weight: 600;
+  padding: 0rem 0 5rem;
+  color: #fff;
+  padding-top: 12rem;
+}
+
+.spazio{
+  padding-top: 9rem;
+}
+
+.form-container {
+  width: 1100px;
+  background: linear-gradient(#252525, #252525) padding-box,
+              linear-gradient(145deg, transparent 35%,#69DFEB, #69DFEB) border-box;
+  border: 2px solid transparent;
+  padding: 32px 24px;
+  font-size: 14px;
+  font-family: inherit;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  background-size: 200% 100%;
+  animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.form-container button:active {
+  scale: 0.95;
+}
+
+.form-container .form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-container .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.form-container .form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #717171;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.form-container .form-group input {
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 8px;
+  color: #fff;
+  font-family: inherit;
+  background-color: transparent;
+  border: 1px solid #414141;
+}
+
+.form-container .form-group textarea {
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 8px;
+  resize: none;
+  color: #fff;
+  height: 96px;
+  border: 1px solid #414141;
+  background-color: transparent;
+  font-family: inherit;
+}
+
+.form-container .form-group input::placeholder {
+  opacity: 0.5;
+}
+
+.form-container .form-group input:focus {
+  outline: none;
+  border-color: #69DFEB;
+}
+
+.form-container .form-group textarea:focus {
+  outline: none;
+  border-color: #69DFEB;
+}
+
+.invia {
+  position: relative;
+  padding: 10px 20px;
+  border-radius: 7px;
+  border: 1px solid #414141;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  background: transparent;
+  color: #fff;
+  overflow: hidden;
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.invia:hover {
+  background: #69DFEB;
+  box-shadow: 0 0 30px 5px rgba(0, 142, 236, 0.815);
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  color: black;
+}
+
+.invia:hover::before {
+  -webkit-animation: sh02 0.5s 0s linear;
+  -moz-animation: sh02 0.5s 0s linear;
+  animation: sh02 0.5s 0s linear;
+}
+
+.invia::before {
+  content: '';
+  display: block;
+  width: 0px;
+  height: 86%;
+  position: absolute;
+  top: 7%;
+  left: 0%;
+  opacity: 0;
+  background: #fff;
+  box-shadow: 0 0 50px 30px #fff;
+  -webkit-transform: skewX(-20deg);
+  -moz-transform: skewX(-20deg);
+  -ms-transform: skewX(-20deg);
+  -o-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+}
+
+@keyframes sh02 {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    left: 100%;
+  }
+}
+
+.invia:active {
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: box-shadow 0.2s ease-in;
+  -moz-transition: box-shadow 0.2s ease-in;
+  transition: box-shadow 0.2s ease-in;
+}
+
+.linkedinLogo,
+.githubLogo,
+.phoneLogo,
+.instagramLogo,
+.emailLogo {
+    color: #fff;
+    font-size: 2.5rem;
+    transition: .5s;
+}
+
+.linkedin:hover {
+    .linkedinLogo {
+        color: #0077B5;
+    }
+}
+
+.github:hover {
+    .githubLogo {
+        color: #a453f0;
+    }
+}
+
+.instagram:hover {
+    .instagramLogo {
+        color: #eb01bb;
+    }
+}
+
+.email:hover {
+  .emailLogo {
+      color: #eb4132;
+  }
+}
+
+.phone:hover {
+  .phoneLogo {
+      color: #96f870;
+  }
+}
+
+.socialMedias {
+    align-items: center;
+    justify-content: center;
+    padding: 0rem 1rem;
+    display: flex;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+
+.socialMediaLogo {
+    cursor: pointer;
+    background-color: #3d3d3d42;
+    border-radius: .5rem;
+    padding: 1.5rem 0rem;
+    width: 18rem;
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.socialMediaLogo2 {
+  cursor: pointer;
+  background-color: #33333342;
+  border-radius: .5rem;
+  padding: 1.5rem 0rem;
+  width: 26rem;
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.mediaName, .mediaName1 {
+    color: #949494;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0;
+}
