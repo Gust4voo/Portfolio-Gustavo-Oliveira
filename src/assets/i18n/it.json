@@ -45,5 +45,11 @@
     "data4": "Ven, Mag 19 2023",
     "cardtitle4": "Clone di Spotify",
     "testocard4": "Questo è clone di Spotify creato utilizzando HTML, CSS, Bootstrap e JavaScript. L'obiettivo è ricreare l'esperienza di Spotify in modo piacevole."
+  },
+
+  "card5": {
+    "data5": "Ven, Feb 24 2023",
+    "cardtitle5": "Benchmark Epicode",
+    "testocard5": "Benvenuto su Benchmark di Epicode. Metti alla prova le tue competenze di programmazione con le nostre domande sfidanti. Affina le tue abilità e competi per il titolo di miglior programmatore!"
   }
 }
