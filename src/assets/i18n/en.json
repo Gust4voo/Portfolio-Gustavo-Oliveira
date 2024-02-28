@@ -51,5 +51,11 @@
     "data5": "Fri, Feb 24th 2023",
     "cardtitle5": "Benchmark Epicode",
     "testocard5": "Welcome to Epicode's Benchmark. Test your programming skills with our challenging questions. Hone your abilities and compete for the title of the best programmer!"
+  },
+
+  "card6": {
+    "data6": "Mon, Feb 26 2024",
+    "cardtitle6": "Codeveloper",
+    "testocard6": "Codeveloper is a dynamic and innovative company operating in the IT services sector in Brazil. Specialized in software development and technology consulting, Codeveloper stands out for its ability to provide tailor-made solutions for the specific needs of its clients."
   }
 }
